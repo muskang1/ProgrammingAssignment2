@@ -4,6 +4,7 @@
 ## The following fcuntions cache the inverse of a matrix assuming 
 ## that the matrix supplied is always invertible.
 ## This function creates a special "matrix" object that can cache its inverse.
+
 ## Write a short comment describing this function
 
 ## The following fcuntions cache the inverse of a matrix assuming 
@@ -24,8 +25,7 @@ set <- function(y) {
 }
 
 ## The following function gives the inverse of invers vector
-## created with the above function. However, it first checks to see if the
-## mean has already been calculated. If so, it `get`s the inverse from the
+## created with the above function. If so, it `get`s the inverse from the
 ## cache and skips the computation. Otherwise, it calculates the inverse of
 ## the data and sets the value of the inverse in the cache via the `setinverse`
 ## function.
